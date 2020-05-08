@@ -31,6 +31,7 @@ function registerTrigger(onPageInit?: () => void, onPageChange?: () => void) {
   }, false);
 }
 
+// noinspection JSUnusedGlobalSymbols
 export default {
   title: 'Demo',
 };
@@ -76,7 +77,7 @@ const Options: OptionsType = {
 };
 
 // noinspection JSUnusedGlobalSymbols
-export const XmlMixedMode = () => {
+export const TemplateMode = () => {
   const textAreaElement = document.createElement('textarea');
   textAreaElement.id = 'codemirror-base';
   return textAreaElement;
