@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist *.tsbuildinfo & tsc -b tsconfig.json",
-    "prepublish": "npm build",
+    "prepublish": "npm run-script build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
