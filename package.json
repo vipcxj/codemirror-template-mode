@@ -1,6 +1,6 @@
 {
   "name": "codemirror-template-mode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A mode for codemirror which for a custom template language.",
   "homepage": "https://vipcxj.github.io/codemirror-template-mode",
   "main": "dist/index.js",
