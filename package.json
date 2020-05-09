@@ -2,17 +2,23 @@
   "name": "codemirror-template-mode",
   "version": "1.0.2",
   "description": "A mode for codemirror which for a custom template language.",
+  "homepage": "https://vipcxj.github.io/codemirror-template-mode",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vipcxj/codemirror-template-mode"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.js",
     "prepublish": "npm run-script build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [
     "codemirror",
@@ -26,6 +32,7 @@
     "@babel/core": "^7.9.0",
     "@storybook/html": "^5.3.18",
     "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/storybook-deployer": "^2.8.5",
     "@types/codemirror": "0.0.90",
     "babel-loader": "^8.1.0",
     "codemirror": "^5.52.2",
@@ -34,7 +41,7 @@
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "codemirror": ">=5"
+    "codemirror": "5"
   },
   "dependencies": {
     "clonedeep": "^2.0.0"
