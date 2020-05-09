@@ -1,6 +1,6 @@
 {
   "name": "codemirror-template-mode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A mode for codemirror which for a custom template language.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
