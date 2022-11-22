@@ -30,7 +30,7 @@
   "sideEffects": true,
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "@storybook/html": "^5.3.18",
+    "@storybook/html": "^6.5.13",
     "@storybook/preset-typescript": "^3.0.0",
     "@storybook/storybook-deployer": "^2.8.5",
     "@types/codemirror": "0.0.90",
